@@ -1,8 +1,8 @@
 package: svg_sanitizer
-version: "0.0.1-dev"
+version: "0.0.1"
 name: SVG sanitizer
-author: eaCe
-supportpage: https://github.com/eaCe/svg_sanitizer
+author: FriendsOfREDAXO
+supportpage: https://github.com/FriendsOfREDAXO/svg_sanitizer
 
 requires:
   redaxo: ^5.14.0
