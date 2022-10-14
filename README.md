@@ -12,7 +12,7 @@ https://www.fortinet.com/blog/threat-research/scalable-vector-graphics-attack-su
 https://www.bjornjohansen.com/svg-in-wordpress
 
 
-Danke an @alxndr-w für den Hinweis auf dom-sanitizer.
+Danke an **[@alxndr-w](https://github.com/alxndr-w)** für den Hinweis auf dom-sanitizer.
 
 
 ### Credits
