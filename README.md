@@ -1,7 +1,7 @@
 # SVG Sanitizer für den REDADXO Medienpool
 
 Ein kleines Addon, um Schadcode aus SVG-Dateien zu entfernen.
-Das Addon nutzt einen Sanitizer von Andy Miller, um eventuellen Schadcode, wie JavaScript, aus SVG-Dateien zu entfernen.
+Das Addon nutzt einen Sanitizer von Andy Miller, um eventuellen Schadcode vor dem Upload in den Medienpool, wie JavaScript, aus SVG-Dateien zu entfernen.
 
 ---
 
