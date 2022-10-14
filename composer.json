@@ -1,9 +1,9 @@
 {
   "license": "MIT",
   "scripts": {
-    "lint": "phplint ./ --exclude=vendor --no-cache lib",
-    "phpcs": "phpcs --extensions=php --standard=phpcs.xml lib",
-    "phpcbf": "phpcbf --extensions=php --standard=phpcs.xml lib",
+    "lint": "phplint ./ --exclude=vendor --no-cache boot.php",
+    "phpcs": "phpcs --extensions=php --standard=phpcs.xml boot.php",
+    "phpcbf": "phpcbf --extensions=php --standard=phpcs.xml boot.php",
     "test": "./vendor/bin/pest --testdox"
   },
   "require-dev": {
