@@ -149,6 +149,21 @@ final class DomSanitizerTest extends TestCase
         );
     }
 
+    public function testXss(): void {
+        $bad_svg = file_get_contents('./tests/xss.svg');
+        $good_svg = file_get_contents('./tests/xss_expected.svg');
+        $sanitizer = new DOMSanitizer(DOMSanitizer::SVG);
+
+        $output = $sanitizer->sanitize($bad_svg,  [
+            'compress-output' => false
+        ]);
+
+        $this->assertEqualHtml(
+            $good_svg,
+            $output
+        );
+    }
+
     protected function assertEqualHtml($expected, $actual)
     {
         $from = ['/\>[^\S ]+/s', '/[^\S ]+\</s', '/(\s)+/s', '/> </s'];

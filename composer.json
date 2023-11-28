@@ -11,7 +11,7 @@
     "overtrue/phplint": "^4.1"
   },
   "require": {
-    "rhukster/dom-sanitizer": "^1.0"
+    "rhukster/dom-sanitizer": "^1.0.7 "
   },
   "config": {
     "allow-plugins": {
